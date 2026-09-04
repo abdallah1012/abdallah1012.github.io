@@ -302,6 +302,11 @@ div.row {
   
  }
 
+.image {
+	max-width: 150px;
+	height: auto;
+}
+
 .lastwrap:after{
   content: "";
   display: block;
