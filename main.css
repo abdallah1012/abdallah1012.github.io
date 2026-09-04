@@ -302,11 +302,17 @@ div.row {
   
  }
 
+.profile-img-wrapper {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0; /* Prevents flex container from distorting it */
+}
+
 .image {
     width: 100%;
-    max-width: 150px; /* Try a smaller size like 120px - 150px */
-    height: auto;
-    display: block;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .lastwrap:after{
