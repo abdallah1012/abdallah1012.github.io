@@ -303,11 +303,10 @@ div.row {
  }
 
 .image {
-  width: 100%;
-  max-width: 300px; /* Adjust this value to fit the blue/white section */
-  height: auto;
-  object-fit: cover;
-  display: block;
+    width: 100%;
+    max-width: 150px; /* Try a smaller size like 120px - 150px */
+    height: auto;
+    display: block;
 }
 
 .lastwrap:after{
